@@ -10,6 +10,7 @@ module org.echo.javafxui {
     requires org.kordamp.bootstrapfx.core;
     requires eu.hansolo.tilesfx;
     requires com.almasb.fxgl.all;
+    requires com.sun.jna;
 
     opens org.echo.javafxui to javafx.fxml;
     exports org.echo.javafxui;
